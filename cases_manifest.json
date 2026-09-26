@@ -1,0 +1,114 @@
+[
+ {
+  "case": "spkA_sad_1",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "sad",
+  "text": "没关系，也许他老婆会泄露秘密。"
+ },
+ {
+  "case": "spkB_happy_1",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "happy",
+  "text": "it looks much better."
+ },
+ {
+  "case": "spkB_angry_1",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "angry",
+  "text": "what do you think of this question?"
+ },
+ {
+  "case": "spkA_surprised_1",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "surprised",
+  "text": "我的希望是工作到倒下的那一天。"
+ },
+ {
+  "case": "spkA_angry_1",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "angry",
+  "text": "诚蒙邀请参加你的婚礼。"
+ },
+ {
+  "case": "spkA_surprised_2",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "surprised",
+  "text": "就经常去我们宿舍附近的酒吧。"
+ },
+ {
+  "case": "spkB_surprised_1",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "surprised",
+  "text": "alice, i won't forget it again."
+ },
+ {
+  "case": "spkB_happy_2",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "happy",
+  "text": "they went up to the dark mass. job had pointed out."
+ },
+ {
+  "case": "spkA_sad_2",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "sad",
+  "text": "尽管提意见，我会改正的。"
+ },
+ {
+  "case": "spkB_angry_2",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "angry",
+  "text": "the ladybug told them proudly."
+ },
+ {
+  "case": "spkA_happy_1",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "happy",
+  "text": "还要叫他起床，怎么会不早起？"
+ },
+ {
+  "case": "spkB_sad_1",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "sad",
+  "text": "they found a cow grazing in a field."
+ },
+ {
+  "case": "spkB_sad_2",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "sad",
+  "text": "then there was a report."
+ },
+ {
+  "case": "spkB_surprised_2",
+  "speaker": "esd_0020",
+  "speaker_label": "Speaker B (English)",
+  "emotion": "surprised",
+  "text": "confess that you opened the thirteenth door."
+ },
+ {
+  "case": "spkA_happy_2",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "happy",
+  "text": "振作点儿！我看了屏幕显示。"
+ },
+ {
+  "case": "spkA_angry_2",
+  "speaker": "esd_0010",
+  "speaker_label": "Speaker A (Chinese)",
+  "emotion": "angry",
+  "text": "你要做爸爸了，真让人难以相信。"
+ }
+]
