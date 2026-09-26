@@ -1,114 +1,132 @@
 [
  {
-  "case": "spkA_sad_1",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
-  "emotion": "sad",
-  "text": "没关系，也许他老婆会泄露秘密。"
- },
- {
-  "case": "spkB_happy_1",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
+  "case": "zh_happy_spk0008",
+  "regime": "default",
+  "regime_label": "Zero-shot cloning",
+  "language": "Chinese",
+  "speaker_label": "Speaker 8 (Chinese)",
   "emotion": "happy",
-  "text": "it looks much better."
+  "text": "是没什么，但是挺别扭的。",
+  "ref_text": "是的，他很狡猾，经常陷害他人。",
+  "gain": 0.5686,
+  "e2v_film": 0.98,
+  "cam_film": 0.8353
  },
  {
-  "case": "spkB_angry_1",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
+  "case": "en_angry_spk0012",
+  "regime": "default",
+  "regime_label": "Zero-shot cloning",
+  "language": "English",
+  "speaker_label": "Speaker 12 (English)",
   "emotion": "angry",
-  "text": "what do you think of this question?"
+  "text": "how suspicious this fox!",
+  "ref_text": "no,\" said piggie carelessly.",
+  "gain": 0.3398,
+  "e2v_film": 0.9455,
+  "cam_film": 0.7787
  },
  {
-  "case": "spkA_surprised_1",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
-  "emotion": "surprised",
-  "text": "我的希望是工作到倒下的那一天。"
- },
- {
-  "case": "spkA_angry_1",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
-  "emotion": "angry",
-  "text": "诚蒙邀请参加你的婚礼。"
- },
- {
-  "case": "spkA_surprised_2",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
-  "emotion": "surprised",
-  "text": "就经常去我们宿舍附近的酒吧。"
- },
- {
-  "case": "spkB_surprised_1",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
-  "emotion": "surprised",
-  "text": "alice, i won't forget it again."
- },
- {
-  "case": "spkB_happy_2",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
+  "case": "en_happy_spk0015",
+  "regime": "default",
+  "regime_label": "Zero-shot cloning",
+  "language": "English",
+  "speaker_label": "Speaker 15 (English)",
   "emotion": "happy",
-  "text": "they went up to the dark mass. job had pointed out."
+  "text": "all smiles were real, and the happier, the more sincere.",
+  "ref_text": "the name really is the aged, aged man.",
+  "gain": 0.2,
+  "e2v_film": 0.7734,
+  "cam_film": 0.8732
  },
  {
-  "case": "spkA_sad_2",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
-  "emotion": "sad",
-  "text": "尽管提意见，我会改正的。"
- },
- {
-  "case": "spkB_angry_2",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
-  "emotion": "angry",
-  "text": "the ladybug told them proudly."
- },
- {
-  "case": "spkA_happy_1",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
-  "emotion": "happy",
-  "text": "还要叫他起床，怎么会不早起？"
- },
- {
-  "case": "spkB_sad_1",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
-  "emotion": "sad",
-  "text": "they found a cow grazing in a field."
- },
- {
-  "case": "spkB_sad_2",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
-  "emotion": "sad",
-  "text": "then there was a report."
- },
- {
-  "case": "spkB_surprised_2",
-  "speaker": "esd_0020",
-  "speaker_label": "Speaker B (English)",
+  "case": "zh_surprised_spk0003",
+  "regime": "default",
+  "regime_label": "Zero-shot cloning",
+  "language": "Chinese",
+  "speaker_label": "Speaker 3 (Chinese)",
   "emotion": "surprised",
-  "text": "confess that you opened the thirteenth door."
+  "text": "我昨天遇到马克，他看起来很忧郁。",
+  "ref_text": "已经播至该专辑最后一个声音。",
+  "gain": 0.1862,
+  "e2v_film": 0.8761,
+  "cam_film": 0.8526
  },
  {
-  "case": "spkA_happy_2",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
-  "emotion": "happy",
-  "text": "振作点儿！我看了屏幕显示。"
- },
- {
-  "case": "spkA_angry_2",
-  "speaker": "esd_0010",
-  "speaker_label": "Speaker A (Chinese)",
+  "case": "en_angry_spk0018",
+  "regime": "default",
+  "regime_label": "Zero-shot cloning",
+  "language": "English",
+  "speaker_label": "Speaker 18 (English)",
   "emotion": "angry",
-  "text": "你要做爸爸了，真让人难以相信。"
+  "text": "i suppose no, it doesn't.",
+  "ref_text": "as soon as she went in, there was disorder.",
+  "gain": 0.1594,
+  "e2v_film": 0.9762,
+  "cam_film": 0.8233
+ },
+ {
+  "case": "zh_angry_spk0001",
+  "regime": "emotion_vector",
+  "regime_label": "Native emotional instruction",
+  "language": "Chinese",
+  "speaker_label": "Speaker 1 (Chinese)",
+  "emotion": "angry",
+  "text": "绝对不可以走到湖的中央。",
+  "ref_text": "是的，真是名副其实。",
+  "gain": 0.573,
+  "e2v_film": 0.9705,
+  "cam_film": 0.7102
+ },
+ {
+  "case": "zh_happy_spk0009",
+  "regime": "emotion_vector",
+  "regime_label": "Native emotional instruction",
+  "language": "Chinese",
+  "speaker_label": "Speaker 9 (Chinese)",
+  "emotion": "happy",
+  "text": "许多白领都参加到这个游戏里面。",
+  "ref_text": "谢谢你的夸奖，鲍勃上了年纪。",
+  "gain": 0.3731,
+  "e2v_film": 0.8561,
+  "cam_film": 0.7895
+ },
+ {
+  "case": "zh_sad_spk0008",
+  "regime": "emotion_vector",
+  "regime_label": "Native emotional instruction",
+  "language": "Chinese",
+  "speaker_label": "Speaker 8 (Chinese)",
+  "emotion": "sad",
+  "text": "很神奇的样子，我搞不懂为什么。",
+  "ref_text": "他一定是一眼就被你迷住了。",
+  "gain": 0.3425,
+  "e2v_film": 0.8409,
+  "cam_film": 0.725
+ },
+ {
+  "case": "en_surprised_spk0019",
+  "regime": "emotion_vector",
+  "regime_label": "Native emotional instruction",
+  "language": "English",
+  "speaker_label": "Speaker 19 (English)",
+  "emotion": "surprised",
+  "text": "he told me that i ought to change.",
+  "ref_text": "rat came and replied on the leaves.",
+  "gain": 0.5136,
+  "e2v_film": 0.6561,
+  "cam_film": 0.7454
+ },
+ {
+  "case": "en_angry_spk0017",
+  "regime": "emotion_vector",
+  "regime_label": "Native emotional instruction",
+  "language": "English",
+  "speaker_label": "Speaker 17 (English)",
+  "emotion": "angry",
+  "text": "they were children of mine.",
+  "ref_text": "this used to be jerry's occupation.",
+  "gain": 0.2295,
+  "e2v_film": 0.883,
+  "cam_film": 0.8118
  }
 ]

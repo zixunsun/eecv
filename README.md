@@ -1,16 +1,24 @@
 # Emotional Enhancement of Cloned Voices via Speaker-Embedding Editing — Demo Page
 
-Anonymous demo page for a paper under double-blind review at ICLR 2027.
+Demo page for the paper "Emotional Enhancement of Cloned Voices via
+Speaker-Embedding Editing".
 
 ## Contents
 
 - `index.html` — static demo page (no build step, no external dependencies)
 - `figures/` — method overview figures (rendered from the paper)
-- `audio/` — 16 evaluation cases x 11 arms per case (reference, unedited,
-  FiLM editor at alpha = 1.0 / 1.25 / 1.5 / 2.0 / 2.5, pooled-affect baseline at
-  alpha = 1.0 / 1.25 / 1.5, target)
-- `cases_manifest.json` — per-case metadata (speaker, requested emotion, text)
-- `tools/build_page.py` — regenerates `index.html` from `cases_manifest.json`
+- `audio/` — 10 curated evaluation cases (5 zero-shot cloning + 5 native
+  emotional instruction), selected from the 18-speaker text-driven evaluation
+  for best identity preservation and highest emotion-cosine gains.
+  Per case: reference (ground-truth neutral), unedited, pooled-affect
+  baseline (alpha = 1), ours (alpha = 1), ours norm-matched, target
+  (ground-truth emotional, anchor only).
+- `cases_manifest.json` — per-case metadata and objective metrics
+  (emotion-cosine gain, emotion cosine, identity cosine)
+- `tools/build_curated_set.py` — rebuilds `audio/` + manifest from the
+  evaluation run
+- `tools/build_page.py` — regenerates `index.html` (fill in the author /
+  arXiv / GitHub placeholders at the top of the script first)
 
 ## Serve locally
 
