@@ -7,7 +7,7 @@ import json, html, os
 AUTHORS = "Zixun Sun"
 AFFILIATIONS = ""           # e.g. "Tencent"; empty = hidden
 ARXIV_URL = ""               # e.g. "https://arxiv.org/abs/2610.xxxxx"; empty = button hidden
-GITHUB_URL = "https://github.com/zixun-sun/ee-tts"
+GITHUB_URL = "https://github.com/zixunsun/eecv"
 # --------------------------------
 
 _btns = ['<a class="btn" href="%s">Code</a>' % GITHUB_URL]
