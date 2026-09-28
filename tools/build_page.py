@@ -44,7 +44,7 @@ for m in manifest:
     met = (f'<div class="metrics">Human MOS at &alpha;=5 (n={m["n"]}): '
            f'Emotion <b>{m["E"]:.2f}</b> &middot; Naturalness <b>{m["N"]:.2f}</b> &middot; '
            f'Intensity <b>{m["I"]:.2f}</b> &middot; Similarity <b>{m["S"]:.2f}</b> '
-           f'&middot; &Delta;Emotion vs unedited <b>{m["dE"]:+.2f}</b></div>')
+           f'&middot; &Delta;Emotion vs original <b>{m["dE"]:+.2f}</b></div>')
     rows.append(f'''      <tr>
         <td class="cinfo"><div class="cid">{chip(m['emotion'])}</div>
           <div class="ctext" lang="{lang}">{html.escape(m['text'])}</div>
@@ -190,19 +190,19 @@ page = f'''<!DOCTYPE html>
 <section id="demos"><div class="wrap">
   <h2>Audio Demos &mdash; Editing Strength &alpha;</h2>
   <p class="explain">Frozen CosyVoice&nbsp;3 with the native emotion instruction active. For each
-  case, <b>Unedited</b> (&alpha;=0) uses the original speaker embedding; <b>Ours</b> adds the
-  predicted reference-conditioned residual at increasing strength (&alpha;=1.5, 3, 5). The
-  <b>Reference</b> is a real neutral recording of the same speaker, used only as the anchor for
-  naturalness and identity &mdash; the editor never sees an emotional recording of the speaker, and
-  speech tokens and decoding are held fixed across all versions of a case. Cases are the
-  top-rated examples from the 16-listener bilingual MOS study; per-case human ratings at
-  &alpha;=5 are shown under each text (1&ndash;5 scale).</p>
+  case, <b>Original CV3</b> (no edit, equivalent to &alpha;=0) uses the original speaker embedding;
+  <b>Ours</b> adds the predicted reference-conditioned residual at increasing strength
+  (&alpha;=1.5, 3, 5). The <b>Reference</b> is a real neutral recording of the same speaker, used
+  only as the anchor for naturalness and identity &mdash; the editor never sees an emotional
+  recording of the speaker, and speech tokens and decoding are held fixed across all versions of
+  a case. Cases are the top-rated examples from the 16-listener bilingual MOS study; per-case
+  human ratings at &alpha;=5 are shown under each text (1&ndash;5 scale).</p>
   <div class="tablewrap">
     <table class="main">
       <thead><tr>
         <th style="text-align:left">Case</th>
         <th>Reference<br><span style="font-weight:400">GT neutral</span></th>
-        <th>Unedited<br><span style="font-weight:400">&alpha; = 0</span></th>
+        <th>Original CV3<br><span style="font-weight:400">no edit</span></th>
         <th>Ours<br><span style="font-weight:400">&alpha; = 1.5</span></th>
         <th>Ours<br><span style="font-weight:400">&alpha; = 3</span></th>
         <th class="ours">Ours<br><span style="font-weight:400">&alpha; = 5</span></th>
